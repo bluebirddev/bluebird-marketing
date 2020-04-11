@@ -5,7 +5,7 @@
       <div class="left-content-arrow" />
       <h2>creating future tech with <strong>style</strong> and <strong>simplicity</strong></h2>
       <p><strong>Bluebird Development</strong> provides exclusive consulting, development, and design resources for you and your team.</p>
-      <button>Find out more</button>
+      <a class="button" href="#services">Find out more</a>
     </section>
     <section class="right-content">
       <div class="right-content-arrow" />

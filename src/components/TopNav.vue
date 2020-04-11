@@ -1,11 +1,11 @@
 <template>
   <header>
     <div class="header-content">
-      <g-image src="~/assets/logo.svg" alt="logo" class="logo" width="126" />
+      <a href="" class="logo"><g-image src="~/assets/logo.svg" alt="logo" width="126" /></a>
       <ul class="nav">
-          <li v-for="navItem in navItems" :key="navItem">
-          {{ navItem }}
-          </li>
+        <li v-for="navItem in navItems" :key="navItem.id">
+          <a :href="`#${navItem.id}`">{{ navItem.name }}</a>
+        </li>
       </ul>
     </div>
   </header>
@@ -15,7 +15,12 @@
 export default {
   data() {
     return {
-      navItems: ['services', 'clients', 'about us', 'contact us'],
+      navItems: [
+        { name: 'services', id: 'services' },
+        { name: 'clients', id: 'clients' },
+        { name: 'about us', id: 'about-us' },
+        { name: 'contact us', id: 'contact-us' },
+      ],
     };
   },
 };
@@ -40,6 +45,7 @@ header {
   height: 100%;
   display: flex;
   padding: 0 20px;
+  align-items: center;
 }
 
 .nav {
@@ -53,8 +59,14 @@ header {
   li {    
     letter-spacing: 0.34px;
     color: #1A73E8;
-    padding: 0 20px;
     position: relative;
+  }
+  a {    
+    padding: 20px;
+    &:hover {
+      /* color: darken(#1A73E8, 20%); */
+      text-decoration: underline;
+    }
   }
 }
 </style>

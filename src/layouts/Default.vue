@@ -5,6 +5,9 @@
 </template>
 
 <style lang="scss">
+html {  
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Montserrat', Arial, sans-serif;
   background-color: #F9FBFD;
@@ -36,7 +39,7 @@ p {
   font-size: 15px;
   line-height: 25px;
 }
-button {
+.button {
   padding: 10px 17px;
   background: #CADB2C 0% 0% no-repeat padding-box;
   border-radius: 5px 0px;
@@ -47,8 +50,14 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+  display: inline-block;
 }
-button:hover {  
+a {
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+.button:hover {  
   background-color: #BACB1C;
 }
 
