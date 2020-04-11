@@ -82,7 +82,7 @@ button:hover {
 }
 .right-content-arrow {
   position: absolute;
-  top: 200px;
+  top: 260px;
   right: -170px;
   width: 24px;
   height: 24px;

@@ -4,8 +4,8 @@
     <main>
       <div class="white-background">
         <div class="background-container">
-          <svg class="left-bg"><polygon points="700,0 0,700 450,1150 0,1600 0,0"></polygon></svg>
-          <svg class="right-bg"><polygon points="580,0 0,580 630,1210 290,1700 800,1700 800,0"></polygon></svg>
+          <svg viewBox="0 0 700 1600" class="left-bg"><polygon points="700,0 0,700 450,1150 0,1600 0,0"></polygon></svg>
+          <svg viewBox="0 0 800 1700" class="right-bg"><polygon points="580,0 0,580 630,1210 290,1700 800,1700 800,0"></polygon></svg>
         </div>
         <Header />
         <ServiceCards />

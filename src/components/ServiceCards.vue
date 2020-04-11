@@ -1,6 +1,8 @@
 <template>
   <div class="content">
     <div id="services" />
+    <div class="left-arrow" />
+    <div class="right-arrow" />
     <div class="row">
       <div class="card">
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
@@ -59,6 +61,24 @@
   p {    
     color: #A6A8AB;
   }
+}
+.left-arrow {
+  position: absolute;
+  top: 170px;
+  left: -200px;
+  width: 24px;
+  height: 24px;
+  border-top: 1px solid #1A73E8;
+  border-right: 1px solid #1A73E8;
+}
+.right-arrow {
+  position: absolute;
+  top: 550px;
+  right: -170px;
+  width: 24px;
+  height: 24px;
+  border-right: 1px solid #1A73E8;
+  border-bottom: 1px solid #1A73E8;
 }
 
 // mobile

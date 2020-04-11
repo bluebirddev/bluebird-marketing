@@ -6,5 +6,6 @@
 
 module.exports = {
   titleTemplate: 'Bluebird Development',
-  plugins: []
+  plugins: [],
+  icon: './static/favicon.png'
 }
