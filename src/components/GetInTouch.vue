@@ -60,7 +60,7 @@ export default {
       const { name, company, email, message } = this;
       this.submitting = true;
       if (!name || !email || !message) return;
-      fetch('https://bluebird.dev', {
+      fetch('https://bluebird-marketing-api.herokuapp.com/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
