@@ -1,5 +1,6 @@
 <template>
   <div class="content">
+    <div id="contact-us" />
     <div class="left-content-arrow" />
     <div class="right-content-arrow" />
     <h2>
@@ -82,6 +83,10 @@ export default {
   margin-bottom: 120px;
   text-align: center;
   position: relative;
+}
+#contact-us {
+  position: absolute;
+  top: -100px;
 }
 .row {
   display: flex;
@@ -176,5 +181,27 @@ h2 {
   height: 24px;
   border-top: 1px solid #1A73E8;
   border-left: 1px solid #1A73E8;
+}
+
+
+// mobile
+@media only screen and (max-width: 1100px) {
+  .content {
+    margin-top: 60px;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .form {
+    width: 100%;
+  }
+  .right-content-arrow {
+    display: none;
+  }
+  .contact {
+    margin: 60px 0 0 0;
+  }
 }
 </style>

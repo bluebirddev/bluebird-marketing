@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <div id="clients" />
     <div class="content">
       <h2 class="title">
         some of the people we’ve <strong>worked</strong> with
@@ -98,6 +99,11 @@ export default {
 .wrapper {
   background-color: #1A73E8;
   padding: 90px 0;
+  position: relative;
+}
+#clients {
+  position: absolute;
+  top: -75px;
 }
 .content {
   max-width: 1200px;
@@ -139,6 +145,23 @@ polyline {
     &:hover {
       opacity: 1;
     }
+  }
+}
+
+// mobile
+@media only screen and (max-width: 1100px) {
+  .content {
+    flex-direction: column;
+  }
+  .title {
+    margin: 0;
+  }
+  .clients {
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .wrapper {
+    padding: 60px 0;
   }
 }
 </style>

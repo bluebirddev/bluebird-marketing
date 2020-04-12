@@ -5,6 +5,9 @@
 </template>
 
 <style lang="scss">
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
 html {  
   scroll-behavior: smooth;
 }
@@ -70,7 +73,7 @@ a {
 
 @media only screen and (max-width: 1100px) {
   h2 {
-    font-size: 26px;
+    font-size: 24px;
   }
 }
 </style>

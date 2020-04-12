@@ -3,7 +3,7 @@
     <div class="content">
       <g-image src="~/assets/white-logo.svg" class="logo" width="38" />
       <div class="social-container">
-        <g-image src="~/assets/facebook-logo.svg" class="disabled" width="11" />
+        <img src="@/assets/facebook-logo.svg" class="disabled" />
         <g-image src="~/assets/twitter-logo.svg" class="disabled" width="24" />
         <a href="http://linkedin.com/company/bluebirddev" target="_blank">
           <g-image src="~/assets/linkedin-logo.svg" width="20" />

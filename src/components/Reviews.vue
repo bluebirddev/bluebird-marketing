@@ -33,11 +33,11 @@
 </template>
 
 <script>
-import Flickity from 'flickity';
 import 'flickity/dist/flickity.min.css';
 
 export default {
   mounted() {
+    const Flickity = require('flickity');
     const elem = this.$refs.carousel;
     this.flkty = new Flickity( elem, {
       prevNextButtons: false,
@@ -142,6 +142,26 @@ h2 {
   }
   &:hover {
     opacity: 1;
+  }
+}
+
+
+// mobile
+@media only screen and (max-width: 900px) {
+  .left-arrow, .right-arrow {
+    display: none;
+  }
+  .carousel-container {
+    width: 100%;
+  }
+  .carousel-slide {
+    p {
+      width: 100%;
+    }
+  }
+  .content {
+    margin-top: 50px;
+    align-items: baseline;
   }
 }
 </style>

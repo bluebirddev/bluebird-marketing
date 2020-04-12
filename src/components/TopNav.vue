@@ -69,4 +69,10 @@ header {
     }
   }
 }
+// mobile
+@media only screen and (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+}
 </style>

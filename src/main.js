@@ -7,14 +7,8 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
 
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css',
+  head.meta.push({
+    name: 'viewport',
+    content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
   });
-  head.link.push({
-    rel: 'stylesheet',
-    href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap',
-  });
-
-  head.title = ["SDF"];
 }

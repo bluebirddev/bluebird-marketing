@@ -1,5 +1,6 @@
 <template>
   <div class="content">
+    <div id="about-us" />
     <div class="left-content-arrow" />
     <div class="right-content-arrow" />
     <div class="left">
@@ -33,7 +34,7 @@
         </div>
       </div>
       <div class="col">
-        <g-image src="~/assets/logo-faded.svg" class="logo-faded" width="135" />
+        <img src="@/assets/logo-faded.svg" class="logo-faded" width="135" />
         <div class="person-card">
           <div class="placeholder-image">Placeholder Image</div>
           <h4>Rikus Louw<br/>(something)</h4>
@@ -51,6 +52,10 @@
   margin-top: 180px;
   position: relative;
 }
+#about-us {
+  position: absolute;
+  top: -100px;
+}
 .underline {
   margin-top: 10px;
   height: 17px;
@@ -67,6 +72,7 @@
   z-index: 1;
 }
 .person-card {
+  z-index: 2;
   width: 240px;
   height: 280px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -131,5 +137,27 @@
   border-top: 1px solid #1A73E8;
   border-left: 1px solid #1A73E8;
   transform: rotate(-45deg);
+}
+
+
+// mobile
+@media only screen and (max-width: 1100px) {
+  .content {
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .col {
+    margin: 30px 0 0 0;
+  }
+  .logo-faded {
+    display: none;
+  }
 }
 </style>

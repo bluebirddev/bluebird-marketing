@@ -5,32 +5,32 @@
     <div class="right-arrow" />
     <div class="row">
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" />
+        <g-image src="~/assets/service-logo.svg" width="54" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" />
+        <g-image src="~/assets/service-logo.svg" width="54" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" />
+        <g-image src="~/assets/service-logo.svg" width="54" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" />
+        <g-image src="~/assets/service-logo.svg" width="54" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" />
+        <g-image src="~/assets/service-logo.svg" width="54" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" />
+        <g-image src="~/assets/service-logo.svg" width="54" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
@@ -56,12 +56,12 @@
 }
 .card {
   width: 300px;
-  height: 350px;
+  min-height: 350px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 5px 5px 10px #0000000D;
   border-radius: 5px 0px;
   margin: 20px;
-  padding: 60px 37px;
+  padding: 60px 37px 37px;
   box-sizing: border-box;
   text-align: center;
   p {    
@@ -92,6 +92,11 @@
   .card {
     max-width: 300px;
     width: 100%;
+    padding: 24px;
+    min-height: 0;
+  }
+  .content {
+    margin-bottom: 60px;
   }
 }
 </style>
