@@ -5,26 +5,32 @@
     <div class="right-arrow" />
     <div class="row">
       <div class="card">
+        <g-image src="~/assets/service-logo.svg" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
+        <g-image src="~/assets/service-logo.svg" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
+        <g-image src="~/assets/service-logo.svg" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
+        <g-image src="~/assets/service-logo.svg" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
+        <g-image src="~/assets/service-logo.svg" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
       <div class="card">
+        <g-image src="~/assets/service-logo.svg" />
         <h3>dolor sit amet <strong>consectetuer</strong></h3>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
       </div>
