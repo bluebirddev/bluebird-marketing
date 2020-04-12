@@ -11,6 +11,7 @@
         <ServiceCards />
       </div>
       <Clients />
+      <Reviews />
     </main>
   </Layout>
 </template>
@@ -20,6 +21,7 @@ import TopNav from '@/components/TopNav.vue';
 import Header from '@/components/Header.vue';
 import ServiceCards from '@/components/ServiceCards.vue';
 import Clients from '@/components/Clients.vue';
+import Reviews from '@/components/Reviews.vue';
 
 export default {
   components: {
@@ -27,6 +29,7 @@ export default {
     Header,
     ServiceCards,
     Clients,
+    Reviews,
   },
 };
 </script>
