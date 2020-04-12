@@ -51,6 +51,7 @@ p {
   outline: none;
   cursor: pointer;
   display: inline-block;
+  min-width: 110px;
 }
 a {
   font: inherit;

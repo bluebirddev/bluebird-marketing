@@ -12,7 +12,10 @@
       </div>
       <Clients />
       <Reviews />
+      <About />
+      <GetInTouch />
     </main>
+    <Footer />
   </Layout>
 </template>
 
@@ -22,6 +25,9 @@ import Header from '@/components/Header.vue';
 import ServiceCards from '@/components/ServiceCards.vue';
 import Clients from '@/components/Clients.vue';
 import Reviews from '@/components/Reviews.vue';
+import About from '@/components/About.vue';
+import GetInTouch from '@/components/GetInTouch.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   components: {
@@ -30,6 +36,9 @@ export default {
     ServiceCards,
     Clients,
     Reviews,
+    About,
+    GetInTouch,
+    Footer,
   },
 };
 </script>

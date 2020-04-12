@@ -4,7 +4,7 @@
       <h2 class="title">
         some of the people we’ve <strong>worked</strong> with
         <svg class="underline">
-          <polyline points="5,5 115,5 122,17" />
+          <polyline points="0,5 115,5 122,17" />
         </svg>
       </h2>
       <div class="clients">
