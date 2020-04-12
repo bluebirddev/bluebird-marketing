@@ -66,6 +66,7 @@ button {
   align-items: center;
   justify-content: center;
   color: #C6C8CB;
+  z-index: 0;
 }
 button:hover {  
   background-color: #BACB1C;

@@ -1,5 +1,7 @@
 <template>
   <div class="content">
+    <div class="left-content-arrow" />
+    <div class="right-content-arrow" />
     <div class="left">
       <h2>
         what we’re all <strong>about</strong>
@@ -47,6 +49,7 @@
   margin: 0 auto;
   display: flex;
   margin-top: 180px;
+  position: relative;
 }
 .underline {
   margin-top: 10px;
@@ -61,6 +64,7 @@
 }
 .left {
   width: 600px;
+  z-index: 1;
 }
 .person-card {
   width: 240px;
@@ -107,5 +111,25 @@
 .logo-faded {
   top: -60px;
   position: absolute;
+}
+
+.left-content-arrow {
+  position: absolute;
+  top: -50px;
+  left: -190px;
+  width: 24px;
+  height: 24px;
+  border-top: 1px solid #1A73E8;
+  border-left: 1px solid #1A73E8;
+}
+.right-content-arrow {
+  position: absolute;
+  top: 260px;
+  right: -170px;
+  width: 24px;
+  height: 24px;
+  border-top: 1px solid #1A73E8;
+  border-left: 1px solid #1A73E8;
+  transform: rotate(-45deg);
 }
 </style>

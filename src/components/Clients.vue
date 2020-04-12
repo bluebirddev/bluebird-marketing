@@ -98,7 +98,6 @@ export default {
 .wrapper {
   background-color: #1A73E8;
   padding: 90px 0;
-  margin-bottom: 100px; // temp
 }
 .content {
   max-width: 1200px;

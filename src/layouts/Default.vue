@@ -49,19 +49,24 @@ p {
   color: #FFFFFF;
   border: none;
   outline: none;
-  cursor: pointer;
   display: inline-block;
   min-width: 110px;
+  &:disabled {
+    opacity: 0.5;
+    cursor: wait;
+  }
+  &:not(:disabled) {
+    cursor: pointer;
+    &:hover {  
+      background-color: #BACB1C;
+    }
+  }
 }
 a {
   font: inherit;
   text-decoration: none;
   color: inherit;
 }
-.button:hover {  
-  background-color: #BACB1C;
-}
-
 
 @media only screen and (max-width: 1100px) {
   h2 {

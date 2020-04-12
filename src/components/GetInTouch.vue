@@ -1,5 +1,7 @@
 <template>
   <div class="content">
+    <div class="left-content-arrow" />
+    <div class="right-content-arrow" />
     <h2>
       get in <strong>touch</strong>
       <svg class="underline">
@@ -7,13 +9,18 @@
       </svg>
     </h2>
     <div class="row">
-      <form class="form">
-        <input placeholder="Your name" required />
-        <input placeholder="Your company (optional)" />
-        <input placeholder="Your email" required />
-        <textarea placeholder="Your message" required />
-        <button class="button" type="submit">Send</button>
+      <form class="form" @submit.prevent="onSubmit" v-if="!submitted">
+        <input placeholder="Your name" name="name" v-model="name" required />
+        <input placeholder="Your company (optional)" name="company" v-model="company" />
+        <input placeholder="Your email" name="email" type="email" v-model="email" required />
+        <textarea placeholder="Your message" name="message" v-model="message" required />
+        <button class="button" type="submit" :disabled="submitting">Send</button>
       </form>
+      <div class="success" v-else>
+        <p>
+          Thank you for reaching out to us.<br />We’ll get back to you <strong>shortly.</strong>
+        </p>
+      </div>
       <p class="contact">
         <strong>lorem ipsum dolor sit</strong><br />
         XX Lorem ipsum<br />
@@ -35,6 +42,38 @@
   </div>  
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      submitting: false,
+      submitted: false,
+      name: '',
+      company: '',
+      email: '',
+      message: '',
+    };
+  },
+  methods: {
+    onSubmit() {
+      const { name, company, email, message } = this;
+      this.submitting = true;
+      if (!name || !email || !message) return;
+      fetch('https://bluebird.dev', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name, company, email, message }),
+      })
+      .finally(() => {        
+        this.submitted = true;
+      });
+    },
+  },
+};
+</script>
+
 <style lang="scss" scoped>
 .content {
   max-width: 1200px;
@@ -42,6 +81,7 @@
   margin-top: 140px;
   margin-bottom: 120px;
   text-align: center;
+  position: relative;
 }
 .row {
   display: flex;
@@ -51,20 +91,38 @@ h2 {
   display: inline-block;
   margin-bottom: 60px;
 }
+.success {  
+  width: 550px;
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  p {
+    color: #1A73E8;
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
 .form {
   width: 550px;
   text-align: right;
+  z-index: 1;
   input, textarea {
     box-sizing: border-box;
     display: block;
     width: 100%;
     padding: 15px;
+    font-size: 15px;
     /* border: 1px solid #A6A8AB; TODO */
     border: 1px solid #D6D8DB;
     outline: none;
     border-radius: 5px 0px;
     font: inherit;
     color: inherit;
+    &::placeholder {
+      color: #D6D8DB;
+    }
     &:focus {
       border-color: #1A73E8;
     }
@@ -81,6 +139,7 @@ h2 {
 }
 .contact {
   margin: 0 160px 0 160px;
+  z-index: 1;
   text-align: left;
   color: #666666;
   strong {    
@@ -98,5 +157,24 @@ h2 {
     stroke-width: 1px;
     fill: none;
   }
+}
+
+.left-content-arrow {
+  position: absolute;
+  top: 190px;
+  left: -80px;
+  width: 24px;
+  height: 24px;
+  border-top: 1px solid #1A73E8;
+  border-right: 1px solid #1A73E8;
+}
+.right-content-arrow {
+  position: absolute;
+  top: 260px;
+  right: 0px;
+  width: 24px;
+  height: 24px;
+  border-top: 1px solid #1A73E8;
+  border-left: 1px solid #1A73E8;
 }
 </style>

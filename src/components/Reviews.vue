@@ -81,6 +81,7 @@ export default {
 .content {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 80px;
   position: relative;
   margin-bottom: 90px;
   display: flex;
