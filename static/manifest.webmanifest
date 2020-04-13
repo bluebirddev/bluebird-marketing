@@ -1,0 +1,16 @@
+{
+  "title": "Bluebird Development",
+  "start_url": "/",
+  "display": "standalone",
+  "status_bar_style": "default",
+  "manifest_path": "manifest.json",
+  "disable_service_worker": true,
+  "service_worker_path": "service-worker.js",
+  "cached_file_types": "js,json,css,html,png,jpg,jpeg,svg",
+  "short_name": "Bluebird",
+  "theme_color": "#1A73E8",
+  "background_color": "#ffffff",
+  "icon": "static/favicon.png",
+  "ms_tile_image": "",
+  "ms_tile_color": "#1A73E8"
+}

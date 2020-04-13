@@ -34,7 +34,7 @@
         </div>
       </div>
       <div class="col">
-        <img src="@/assets/logo-faded.svg" class="logo-faded" width="135" />
+        <img src="@/assets/logo-faded.svg" class="logo-faded" alt="logo-faded" width="135" />
         <div class="person-card">
           <div class="placeholder-image">Placeholder Image</div>
           <h4>Rikus Louw<br/>(something)</h4>

@@ -11,9 +11,13 @@
     </h2>
     <div class="row">
       <form class="form" @submit.prevent="onSubmit" v-if="!submitted" data-aos="fade-right">
+        <label for="name">Your name</label>
         <input placeholder="Your name" name="name" v-model="name" required />
+        <label for="company">Your company (optional)</label>
         <input placeholder="Your company (optional)" name="company" v-model="company" />
+        <label for="email">Your email</label>
         <input placeholder="Your email" name="email" type="email" v-model="email" required />
+        <label for="message">Your message</label>
         <textarea placeholder="Your message" name="message" v-model="message" required />
         <button class="button" type="submit" :disabled="submitting">Send</button>
       </form>
@@ -113,6 +117,10 @@ h2 {
   width: 550px;
   text-align: right;
   z-index: 1;
+  margin-top: -20px;
+  label {
+    display: none;
+  }
   input, textarea {
     box-sizing: border-box;
     display: block;
@@ -135,7 +143,7 @@ h2 {
   textarea {    
     resize: vertical;
   }
-  input + input, input + textarea {
+  input, textarea {
     margin-top: 20px;
   }
 }
