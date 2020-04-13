@@ -210,8 +210,5 @@ ul {
   .mobile-nav {
     display: block;
   }
-  .header-content {
-    padding-right: 30px;
-  }
 }
 </style>

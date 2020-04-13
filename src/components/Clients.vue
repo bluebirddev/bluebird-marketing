@@ -1,7 +1,7 @@
 <template>
-  <div class="wrapper" data-aos="flip-up">
+  <div class="wrapper">
     <div id="clients" />
-    <div class="content">
+    <div class="content" data-aos="slide-down">
       <h2 class="title">
         some of the people we’ve <strong>worked</strong> with
         <svg class="underline">
@@ -124,7 +124,6 @@ export default {
   align-items: center;
 }
 .title {
-  width: 300px;
   color: #fff;
   width: 310px;
   margin-right: 210px;
