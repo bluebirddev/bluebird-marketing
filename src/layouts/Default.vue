@@ -4,6 +4,20 @@
   </div>
 </template>
 
+
+<script>
+import 'aos/dist/aos.css';
+
+export default {
+  mounted() {
+    const AOS = require('aos');
+    // You can also use <link> for styles
+    // ..
+    AOS.init();
+  },
+};
+</script>
+
 <style lang="scss">
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');

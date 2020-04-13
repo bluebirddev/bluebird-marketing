@@ -3,7 +3,7 @@
     <div id="about-us" />
     <div class="left-content-arrow" />
     <div class="right-content-arrow" />
-    <div class="left">
+    <div class="left" data-aos="fade-right">
       <h2>
         what we’re all <strong>about</strong>
         <svg class="underline">
@@ -22,7 +22,7 @@
         Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui.
       </p>
     </div>
-    <div class="right">
+    <div class="right" data-aos="fade-left">
       <div class="col">
         <div class="person-card">
           <div class="placeholder-image">Placeholder Image</div>

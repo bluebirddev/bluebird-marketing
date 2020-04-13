@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" data-aos="fade-right">
     <div id="services" />
     <div class="left-arrow" />
     <div class="right-arrow" />
@@ -43,7 +43,7 @@
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 #services {
   position: absolute;

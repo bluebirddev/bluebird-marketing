@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrapper" data-aos="flip-up">
     <div id="clients" />
     <div class="content">
       <h2 class="title">

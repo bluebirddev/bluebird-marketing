@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="content" data-aos="fade">
     <h2>what <strong>people</strong> have to say
       <svg class="underline">
         <polyline points="5,17 12,5 200,5" />

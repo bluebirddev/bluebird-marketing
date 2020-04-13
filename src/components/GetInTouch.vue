@@ -10,7 +10,7 @@
       </svg>
     </h2>
     <div class="row">
-      <form class="form" @submit.prevent="onSubmit" v-if="!submitted">
+      <form class="form" @submit.prevent="onSubmit" v-if="!submitted" data-aos="fade-right">
         <input placeholder="Your name" name="name" v-model="name" required />
         <input placeholder="Your company (optional)" name="company" v-model="company" />
         <input placeholder="Your email" name="email" type="email" v-model="email" required />
@@ -22,7 +22,7 @@
           Thank you for reaching out to us.<br />We’ll get back to you <strong>shortly.</strong>
         </p>
       </div>
-      <p class="contact">
+      <p class="contact" data-aos="fade-left">
         <strong>lorem ipsum dolor sit</strong><br />
         XX Lorem ipsum<br />
         Dolor sit amet<br />
