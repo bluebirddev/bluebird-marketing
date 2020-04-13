@@ -28,6 +28,7 @@ html {
 body {
   font-family: 'Montserrat', Arial, sans-serif;
   background-color: #F9FBFD;
+  overflow-x: hidden;
 }
 h2 {
   letter-spacing: 0.6px;

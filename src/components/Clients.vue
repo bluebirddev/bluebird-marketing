@@ -10,34 +10,44 @@
       </h2>
       <div class="clients">
         <a href="https://22seven.com" target="_blank">
-          <g-image src="~/assets/clients/22seven.svg" width="96" />
+          <span>22seven</span>
+          <g-image src="~/assets/clients/22seven.svg" alt="22seven" width="96" />
         </a>
         <a href="https://bank.tech" target="_blank">
-          <g-image src="~/assets/clients/banktech.svg" width="96" />
+          <span>bank.tech</span>
+          <g-image src="~/assets/clients/banktech.svg" alt="banktech" width="96" />
         </a>
         <a href="https://thedelta.io" target="_blank">
-          <g-image src="~/assets/clients/delta.png" width="180" style="width:90px;" />
+          <span>thedelta</span>
+          <g-image src="~/assets/clients/delta.png" alt="delta" width="180" style="width:90px;" />
         </a>
         <a href="https://fintec.group" target="_blank">
-          <g-image src="~/assets/clients/fintec.svg" width="86" />
+          <span>fintec</span>
+          <g-image src="~/assets/clients/fintec.svg" alt="fintec" width="86" />
         </a>
         <a href="https://fomo.travel" target="_blank">
-          <g-image src="~/assets/clients/fomo.png" width="144" style="width:72px;" />
+          <span>fomo</span>
+          <g-image src="~/assets/clients/fomo.png" alt="fomo" width="144" style="width:72px;" />
         </a>
         <a href="https://layup.co.za" target="_blank">
-          <g-image src="~/assets/clients/layup.png" width="172" style="width:86px;" />
+          <span>layup</span>
+          <g-image src="~/assets/clients/layup.png" alt="layup" width="172" style="width:86px;" />
         </a>
         <a href="https://opticollect.com" target="_blank">
-          <g-image src="~/assets/clients/opticollect.svg" width="86" />
+          <span>opticollect</span>
+          <g-image src="~/assets/clients/opticollect.svg" alt="opticollect" width="86" />
         </a>
         <a href="https://www.pabtglobal.com" target="_blank">
-          <g-image src="~/assets/clients/pump-and-abrasion.png" width="200" style="width:100px;" />
+          <span>pump-and-abrasion</span>
+          <g-image src="~/assets/clients/pump-and-abrasion.png" alt="pump-and-abrasion" width="200" style="width:100px;" />
         </a>
         <a href="https://www.raubex.co.za" target="_blank">
-          <g-image src="~/assets/clients/raubex.png" width="164" style="width:82px;" />
+          <span>raubex</span>
+          <g-image src="~/assets/clients/raubex.png" alt="raubex" width="164" style="width:82px;" />
         </a>
         <a href="https://revix.com" target="_blank">
-          <g-image src="~/assets/clients/revix.png" width="172" style="width:86px;" />
+          <span>revix</span>
+          <g-image src="~/assets/clients/revix.png" alt="revix" width="172" style="width:86px;" />
         </a>
       </div>
     </div>
@@ -137,6 +147,9 @@ polyline {
   a {
     width: 130px;
     text-align: center;
+    > span {
+      display: none;
+    }
   }
   img {
     margin: 10px;

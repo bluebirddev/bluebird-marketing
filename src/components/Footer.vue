@@ -1,12 +1,12 @@
 <template>
   <div class="wrapper">
     <div class="content">
-      <g-image src="~/assets/white-logo.svg" class="logo" width="38" />
+      <g-image src="~/assets/white-logo.svg" alt="white-logo" class="logo" width="38" />
       <div class="social-container">
-        <img src="@/assets/facebook-logo.svg" class="disabled" />
-        <g-image src="~/assets/twitter-logo.svg" class="disabled" width="24" />
+        <img src="@/assets/facebook-logo.svg" alt="facebook-logo" class="disabled" />
+        <g-image src="~/assets/twitter-logo.svg" alt="twitter-logo" class="disabled" width="24" />
         <a href="http://linkedin.com/company/bluebirddev" target="_blank">
-          <g-image src="~/assets/linkedin-logo.svg" width="20" />
+          <g-image src="~/assets/linkedin-logo.svg" alt="linkedin-logo" width="20" />
         </a>
       </div>
       <p class="text">© {{ year }} Rektech - trading as Bluebird Development</p>
