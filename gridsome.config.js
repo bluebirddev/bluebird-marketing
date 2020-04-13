@@ -26,9 +26,9 @@ module.exports = {
     //     msTileColor: '#1A73E8'
     //   },
     // },
-    {
-      use: "gridsome-plugin-service-worker",
-    },
+    // {
+    //   use: "gridsome-plugin-service-worker",
+    // },
   ],
   icon: './static/favicon.png'
 }

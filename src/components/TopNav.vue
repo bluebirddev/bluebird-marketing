@@ -136,6 +136,8 @@ header {
   padding: 0 20px;
   align-items: center;
   background-color: #fff;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 ul {
@@ -207,6 +209,9 @@ ul {
   }
   .mobile-nav {
     display: block;
+  }
+  .header-content {
+    padding-right: 30px;
   }
 }
 </style>
