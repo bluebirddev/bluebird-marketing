@@ -14,6 +14,6 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'Description',
-    content: 'Author: CJ Visser; Bluebird Development: IT Consulting, Dev House, Software Services, Freelancers'
+    content: 'Bluebird Development: Creating future tech with style and simplicity.'
   });
 }
