@@ -9,6 +9,6 @@ export default function (Vue, { router, head, isClient }) {
 
   head.meta.push({
     name: 'viewport',
-    content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+    content: 'width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no'
   });
 }

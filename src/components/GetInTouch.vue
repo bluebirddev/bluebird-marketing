@@ -203,5 +203,8 @@ h2 {
   .contact {
     margin: 60px 0 0 0;
   }
+  h2 {
+    margin-bottom: 30px;
+  }
 }
 </style>

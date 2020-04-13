@@ -99,4 +99,14 @@
     margin-bottom: 60px;
   }
 }
+
+
+// mobile
+@media only screen and (max-width: 600px) {
+  .card {
+    max-width: inherit;
+    margin: 10px 0;
+    padding: 18px;
+  }
+}
 </style>

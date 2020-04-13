@@ -10,34 +10,34 @@
       </h2>
       <div class="clients">
         <a href="https://22seven.com" target="_blank">
-          <g-image src="~/assets/clients/22seven.svg" width="86" />
+          <g-image src="~/assets/clients/22seven.svg" width="96" />
         </a>
         <a href="https://bank.tech" target="_blank">
-          <g-image src="~/assets/clients/banktech.png" width="96" />
+          <g-image src="~/assets/clients/banktech.svg" width="96" />
         </a>
         <a href="https://thedelta.io" target="_blank">
-          <g-image src="~/assets/clients/delta.png" width="86" />
+          <g-image src="~/assets/clients/delta.png" width="180" style="width:90px;" />
         </a>
         <a href="https://fintec.group" target="_blank">
           <g-image src="~/assets/clients/fintec.svg" width="86" />
         </a>
         <a href="https://fomo.travel" target="_blank">
-          <g-image src="~/assets/clients/fomo.png" width="72" />
+          <g-image src="~/assets/clients/fomo.png" width="144" style="width:72px;" />
         </a>
         <a href="https://layup.co.za" target="_blank">
-          <g-image src="~/assets/clients/layup.png" width="86" />
+          <g-image src="~/assets/clients/layup.png" width="172" style="width:86px;" />
         </a>
         <a href="https://opticollect.com" target="_blank">
           <g-image src="~/assets/clients/opticollect.svg" width="86" />
         </a>
         <a href="https://www.pabtglobal.com" target="_blank">
-          <g-image src="~/assets/clients/pump-and-abrasion.png" width="100" />
+          <g-image src="~/assets/clients/pump-and-abrasion.png" width="200" style="width:100px;" />
         </a>
         <a href="https://www.raubex.co.za" target="_blank">
-          <g-image src="~/assets/clients/raubex.png" width="82" />
+          <g-image src="~/assets/clients/raubex.png" width="164" style="width:82px;" />
         </a>
         <a href="https://revix.com" target="_blank">
-          <g-image src="~/assets/clients/revix.png" width="86" />
+          <g-image src="~/assets/clients/revix.png" width="172" style="width:86px;" />
         </a>
       </div>
     </div>
@@ -155,6 +155,7 @@ polyline {
   }
   .title {
     margin: 0;
+    width: 100%;
   }
   .clients {
     justify-content: space-around;
