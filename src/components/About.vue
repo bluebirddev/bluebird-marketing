@@ -11,32 +11,40 @@
         </svg>
       </h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        We are a remote team with diverse backgrounds and complimentary skillsets.  What unite us are our willingness to work in dynamic environments, our love of tech, and our eagerness to learn.
+        We don't push a project on anyone.  We believe the best work comes from an engaged and interested person - from taking immense pride in your work.<span class="comment">(better structure)</span>
       </p>
       <p>
-        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Every one of our clients are different and have their own needs - that's why we won't give you a boilerplate solution.  Want to be hands-on?  Want us to slot into your existing development pipeline?  Want to leave 
+        everything to us?  Your choice.  Our process is custom made for your requirements.        
       </p>
       <p>
-        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui.
+        We don't tie ourselves to one tech.  We focus on structures that trancends fads.  We find the balance between the latest tech and honoring time-tested methodologies. <span class="comment">(Too airy fairy)</span>
+      </p>
+      <p>
+        We create things that simple, useful, powerful, sustainable, and beautiful.
+      </p>
+      <p>
+        Want to work with us?  
+        Want to create something amazing?
+        Get in touch below.
       </p>
     </div>
     <div class="right" data-aos="fade-left">
       <div class="col">
         <div class="person-card">
-          <div class="placeholder-image">Placeholder Image</div>
+          <g-image src="~/assets/cj.jpg" alt="cj" class="person-image" width="200" height="200" fit="cover" />
           <h4>CJ Visser<br/>(founder)</h4>
         </div>
         <div class="person-card">
-          <div class="placeholder-image">Placeholder Image</div>
+          <g-image src="~/assets/nick.jpg" alt="nick" class="person-image" width="200" height="200" fit="cover" />
           <h4>Nick Zaverdinos<br/>(something)</h4>
         </div>
       </div>
       <div class="col">
-        <img src="@/assets/logo-faded.svg" class="logo-faded" alt="logo-faded" width="135" />
+        <img src="@/assets/logo-faded.svg" class="logo-faded" alt="logo-faded" width="135" fit="cover" />
         <div class="person-card">
-          <div class="placeholder-image">Placeholder Image</div>
+          <g-image src="~/assets/rikus.jpg" alt="rikus" class="person-image" width="200" height="200" />
           <h4>Rikus Louw<br/>(something)</h4>
         </div>
       </div>
@@ -104,15 +112,6 @@
   justify-content: center;
   align-items: center;
   margin-left: 30px;
-}
-.placeholder-image {
-  width: 200px;
-  height: 200px;
-  border: 0.5px solid #E6E8EB;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #C6C8CB;
 }
 .logo-faded {
   top: -60px;

@@ -6,33 +6,33 @@
     <div class="row">
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
-        <h3>dolor sit amet <strong>consectetuer</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+        <h3><strong>mobile app</strong><br/> development</h3>
+        <p>Native, Xamarin, Flutter, or React Native.  We take the hassle out of mobile development, and deliver a beautiful app quickly and cost effectively.</p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
-        <h3>dolor sit amet <strong>consectetuer</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+        <h3><strong>web</strong><br/> development</h3>
+        <p>Using the latest tech and confirming to the latest ECMAScript guidelines, we create performant, sleek, and secure websites.</p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
-        <h3>dolor sit amet <strong>consectetuer</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+        <h3><strong>infrastructure</strong><br/> development</h3>
+        <p>From banking solutions to logistic systems.  We have the api, "back-end", and database development experience to tackle any problem. <span class="comment">(Language!)</span></p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
-        <h3>dolor sit amet <strong>consectetuer</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+        <h3><strong>product</strong><br/> management</h3>
+        <p>We will manage all the complexities - getting the tasks and the people to work together, and getting the project across the line, in time. <span class="comment">(help)</span></p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
-        <h3>dolor sit amet <strong>consectetuer</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+        <h3><strong>UX</strong> and <strong>UI</strong><br/> design</h3>
+        <p>We work with a wide range of designers to create brands from scratch, or to fine tune your existing solution to the nearest pixel. <span class="comment">(help more)</span></p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
-        <h3>dolor sit amet <strong>consectetuer</strong></h3>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+        <h3><strong>discovery</strong> and <strong><br/>architecture</strong></h3>
+        <p>We will help you discover your project requirements, design a proposed solution, and create MVPs to jumpstart your development.  <span class="comment">(thanks Scriptex)</span></p>
       </div>
     </div>
   </div>

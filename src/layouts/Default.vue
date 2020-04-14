@@ -85,6 +85,12 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.comment {
+  display: block;
+  color: #ff2727;
+  font-weight: bold;
+  font-family: monospace;
+}
 
 @media only screen and (max-width: 1100px) {
   h2 {

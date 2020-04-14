@@ -27,21 +27,16 @@
         </p>
       </div>
       <p class="contact" data-aos="fade-left">
-        <strong>lorem ipsum dolor sit</strong><br />
-        XX Lorem ipsum<br />
-        Dolor sit amet<br />
-        Consectetuer<br />
-        (+27) 00 000 0000
+        <strong>find us at</strong><br />
+        Fintec Spaces<br />
+        20 Krige Road<br />
+        Stellenbosch<br />
+        South Africa
         <br />
         <br />
-        <strong>lorem ipsum dolor sit</strong><br />
-        Utwisi enim adminim<br />
-        xxxx@bluebird.dev
-        <br />
-        <br />
-        <strong>lorem ipsum dolor sit</strong><br />
-        Utwisi enim adminim<br />
-        xxxx@bluebird.dev
+        <strong>contact us at</strong><br />
+        <a href="tel:+27739787541">+27 73 978 7541</a><br />
+        <a href="mailto:info@bluebird.dev">info@bluebird.dev</a>
       </p>
     </div>
   </div>  
@@ -87,6 +82,9 @@ export default {
   margin-bottom: 120px;
   text-align: center;
   position: relative;
+  a:hover {
+    text-decoration: underline;
+  }
 }
 #contact-us {
   position: absolute;

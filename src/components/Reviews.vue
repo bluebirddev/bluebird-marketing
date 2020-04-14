@@ -43,9 +43,21 @@ export default {
       prevNextButtons: false,
       autoPlay: 4000,
       wrapAround: true,
+      contain: true,
     });
+    // Very hacky way to make sure flickity content is not out of bounds.
+    window.addEventListener('scroll', this.handleScroll);
+    setTimeout(() => {
+      this.flkty.resize();
+    }, 1);
+  },
+  destroyed () {
+    window.removeEventListener('scroll', this.handleScroll);
   },
   methods: {
+    handleScroll (event) {
+      this.flkty.resize();
+    },
     onLeft() {
       this.flkty.stopPlayer();
       this.flkty.previous();
@@ -60,16 +72,12 @@ export default {
       flkty: undefined,
       reviews: [
         {
-          text: `Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-          laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.`,
-          name: 'Name Surname – Location',
+          text: `Bluebird's team are great partners, whether working with you directly or with your internal team.  They bring incredible talent and consistently make rapid and valuable contributions towards software projects they're involved in.  If you're building a new website or undertaking complex financial software development, they can do it all on time and on budget.`,
+          name: 'Stefan Griesel – Product Lead, BankTech',
         },
         {
-          text: `Ut wisi enim ad minim veniam, quis nostrud exerci tation
-          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-          laoreet dolore magna aliquam erat volutpat. `,
-          name: 'Name Surname – Location',
+          text: `Our company has worked with Bluebird on several occasions and it’s been great working with such a dedicated and well skilled team.  Their ability to correctly understand client requirements and timeously deliver upon them using the right tech-fit is one of their greatest attributes.`,
+          name: 'Alessandro Mion - Co-founder, Scriptex',
         },
       ]
     }
