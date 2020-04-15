@@ -11,23 +11,23 @@
         </svg>
       </h2>
       <p>
-        We are a remote team with diverse backgrounds and complimentary skillsets.  What unite us are our willingness to work in dynamic environments, our love of tech, and our eagerness to learn.
-        We don't push a project on anyone.  We believe the best work comes from an engaged and interested person - from taking immense pride in your work.<span class="comment">(better structure)</span>
+        We are a remote team with diverse backgrounds and complimentary skillsets.  We're united through our love of tech, adaptablility and eagerness to learn. 
+        Our culture is built upon pride and collaboration, allowing us to effectively divide, conquer and tailor every task and challenge.<span class="comment">(better structure)</span>
       </p>
       <p>
-        Every one of our clients are different and have their own needs - that's why we won't give you a boilerplate solution.  Want to be hands-on?  Want us to slot into your existing development pipeline?  Want to leave 
-        everything to us?  Your choice.  Our process is custom made for your requirements.        
+        Every one of our clients are unique with their own set of needs - We don't provide you with a boilerplate solution.  We can slot into your existing development pipeline, provide a hands-on approach or
+        adopt and manage the entire process.  Your choice.  Our process is custom tailored for your requirements.        
       </p>
       <p>
-        We don't tie ourselves to one tech.  We focus on structures that trancends fads.  We find the balance between the latest tech and honoring time-tested methodologies. <span class="comment">(Too airy fairy)</span>
+        We're not limited to one stack.  The world of tech is constantly evoling.  We find the balance between modern technologies and honoring time-tested methodologies. <span class="comment">(Too airy fairy)</span>
       </p>
       <p>
-        We create things that simple, useful, powerful, sustainable, and beautiful.
+        We pride ourselves in creating solutions that are simple, powerful, sustainable and beautiful.
       </p>
       <p>
-        Want to work with us?  
-        Want to create something amazing?
-        Get in touch below.
+        Want to <strong>work</strong> with us?  
+        Let's build <strong>something</strong>.
+        Get in <strong>touch</strong> below.
       </p>
     </div>
     <div class="right" data-aos="fade-left">
