@@ -33,7 +33,7 @@
     <div class="right" data-aos="fade-left">
       <div class="col">
         <div class="person-card">
-          <g-image src="~/assets/cj.jpg" alt="cj" class="person-image" width="200" height="200" fit="cover" />
+          <g-image src="~/assets/cj.jpg" alt="cj" class="person-image" width="400" height="400" fit="cover" />
           <h4>CJ Visser<br/>(founder)</h4>
         </div>
         <div class="person-card">
@@ -78,6 +78,10 @@
 .left {
   width: 600px;
   z-index: 1;
+}
+.person-image {
+  width: 200px;
+  height: 200px;
 }
 .person-card {
   z-index: 2;
