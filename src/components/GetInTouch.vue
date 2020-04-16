@@ -15,6 +15,7 @@
         @submit.prevent="onSubmit"
         v-if="!submitted"
         data-aos="fade-right"
+        name="contact"
         action="/success/"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
