@@ -10,7 +10,15 @@
       </svg>
     </h2>
     <div class="row">
-      <form class="form" @submit.prevent="onSubmit" v-if="!submitted" data-aos="fade-right">
+      <form
+        class="form"
+        @submit.prevent="onSubmit"
+        v-if="!submitted"
+        data-aos="fade-right"
+        action="/success/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
         <label for="name">Your name</label>
         <input placeholder="Your name" name="name" v-model="name" required />
         <label for="company">Your company (optional)</label>
@@ -43,6 +51,8 @@
 </template>
 
 <script>
+import { encode } from '../utils';
+
 export default {
   data() {
     return {
@@ -59,12 +69,16 @@ export default {
       const { name, company, email, message } = this;
       this.submitting = true;
       if (!name || !email || !message) return;
-      fetch('https://bluebird-marketing-api.herokuapp.com/', {
+      fetch('/', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ name, company, email, message }),
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encode({
+          'form-name': e.target.getAttribute('name'),
+          name,
+          company,
+          email,
+          message,
+        }),
       })
       .finally(() => {        
         this.submitted = true;
