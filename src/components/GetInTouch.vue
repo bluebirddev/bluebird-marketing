@@ -70,7 +70,7 @@ export default {
       const { name, company, email, message } = this;
       this.submitting = true;
       if (!name || !email || !message) return;
-      fetch('/', {
+      fetch('/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
