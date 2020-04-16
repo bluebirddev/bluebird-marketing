@@ -86,7 +86,6 @@
 .person-card {
   z-index: 2;
   width: 240px;
-  height: 280px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 5px 5px 10px #0000000D;
   border-radius: 5px 0px;
@@ -96,13 +95,15 @@
   }
   padding: 20px;
   box-sizing: border-box;
+  font-family: 'Courier Prime', monospace;
   h4 {
     text-align: center;
     letter-spacing: 0px;
     color: #1A73E8;
     line-height: 14px;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
+    margin-bottom: 0;
   }
 }
 .right {

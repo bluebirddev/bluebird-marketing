@@ -137,6 +137,7 @@ h2 {
   letter-spacing: 0.24px;
   font-size: 12px;
   line-height: 20px;
+  font-family: 'Courier Prime', monospace;
 }
 .left-arrow, .right-arrow {
   opacity: 0.7;

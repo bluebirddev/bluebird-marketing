@@ -21,6 +21,7 @@ export default {
 <style lang="scss">
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 
 html {  
   scroll-behavior: smooth;
@@ -62,6 +63,7 @@ p {
   background: #CADB2C 0% 0% no-repeat padding-box;
   border-radius: 5px 0px;
   font: inherit;
+  font-family: 'Courier Prime', monospace;
   font-size: 15px;
   letter-spacing: 0.3px;
   color: #FFFFFF;
