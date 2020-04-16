@@ -71,7 +71,7 @@ export default {
       const { name, company, email, message } = this;
       this.submitting = true;
       if (!name || !email || !message) return;
-      fetch('https://bluebirddev.netlify.com/', {
+      fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
