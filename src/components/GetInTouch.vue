@@ -16,7 +16,8 @@
         v-if="!submitted"
         data-aos="fade-right"
         name="contact"
-        action="/success/"
+        netlify
+        netlify-honeypot
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
@@ -70,7 +71,7 @@ export default {
       const { name, company, email, message } = this;
       this.submitting = true;
       if (!name || !email || !message) return;
-      fetch('/contact', {
+      fetch('https://bluebirddev.netlify.com/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode({
