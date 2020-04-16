@@ -65,7 +65,7 @@ export default {
     };
   },
   methods: {
-    onSubmit() {
+    onSubmit(e) {
       const { name, company, email, message } = this;
       this.submitting = true;
       if (!name || !email || !message) return;
