@@ -39,14 +39,14 @@
         </div>
         <div class="person-card">
           <g-image src="~/assets/nick.jpg" alt="nick" class="person-image" width="200" height="200" fit="cover" />
-          <h4>Nick Zaverdinos<br/>(something)</h4>
+          <h4>Nick Zaverdinos<br/>(co-founder)</h4>
         </div>
       </div>
       <div class="col">
         <img src="@/assets/logo-faded.svg" class="logo-faded" alt="logo-faded" width="135" fit="cover" />
         <div class="person-card">
           <g-image src="~/assets/rikus.jpg" alt="rikus" class="person-image" width="200" height="200" />
-          <h4>Rikus Louw<br/>(something)</h4>
+          <h4>Rikus Louw<br/>(co-founder)</h4>
         </div>
       </div>
     </div>
