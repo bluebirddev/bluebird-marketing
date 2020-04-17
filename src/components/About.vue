@@ -11,22 +11,22 @@
         </svg>
       </h2>
       <p>
-        We are a remote team with diverse backgrounds and complimentary skillsets.  We're united through our love of tech, adaptablility and eagerness to learn. 
-        Our culture is built upon pride and collaboration, allowing us to effectively divide, conquer and tailor every task and challenge.<span class="comment">(better structure)</span>
+        We are a remote team with diverse backgrounds and complimentary skillsets.  We’re united through our love of tech, adaptability, and eagerness to learn. 
+        Our culture is built upon pride and collaboration, allowing us to effectively divide, conquer and tailor every task and challenge.
       </p>
       <p>
-        Every one of our clients are unique with their own set of needs - We don't provide you with a boilerplate solution.  We can slot into your existing development pipeline, provide a hands-on approach or
+       Each of our clients has a unique set of needs, so we don’t just offer a boilerplate solution.  We can slot into your existing development pipeline, provide a hands-on approach, or
         adopt and manage the entire process.  Your choice.  Our process is custom tailored for your requirements.        
       </p>
       <p>
-        We're not limited to one stack.  The world of tech is constantly evoling.  We find the balance between modern technologies and honoring time-tested methodologies. <span class="comment">(Too airy fairy)</span>
+        We’re not limited to one stack.  The world of tech is constantly evoling.  We find the balance between modern technologies and honoring time-tested methodologies.
       </p>
       <p>
         We pride ourselves in creating solutions that are simple, powerful, sustainable and beautiful.
       </p>
       <p>
         Want to <strong>work</strong> with us?  
-        Let's build <strong>something</strong>.
+        Let’s build <strong>something</strong>.
         Get in <strong>touch</strong> below.
       </p>
     </div>

@@ -4,15 +4,13 @@
     <section class="left-content" data-aos="fade-right">
       <div class="left-content-arrow" />
       <h2>creating innovative software with <strong>style</strong> and <strong>simplicity</strong></h2>
-      <p><strong>Bluebird Development</strong> provides exclusive consulting, development, and design resources for you and your team. <span class="comment">(catchy tagline?)</span></p>
+      <p><strong>Bluebird Development</strong> provides exclusive consulting, development, and design resources for you and your team.</p>
       <a class="button" href="#services">Find out more</a>
     </section>
     <section class="right-content" data-aos="fade-left">
       <div class="right-content-arrow" />
       <h2>from UI tweaks to fully developed banking systems, we cater for<br/><strong> all your needs</strong></h2>
-      <p>We're a highly adaptable team with the right skills, experience and drive, ready for any challenge.
-        <span class="comment">(want to indicate that we have the right people and that we can create anything)</span>
-      </p>
+      <p>We’re a <strong>highly adaptable</strong> team with the right skills, real-world experience, and drive.  We’re ready for any challenge.</p>
     </section>
   </div>
 </template>

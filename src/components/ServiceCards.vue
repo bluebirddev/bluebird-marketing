@@ -17,22 +17,22 @@
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
         <h3><strong>infrastructure</strong><br/> development</h3>
-        <p>From banking solutions to logistic systems.  We have the server, database and services development experience to tackle any problem. <span class="comment">(Language!)</span></p>
+        <p>We develop everything from banking solutions to logistic systems and have the server, database, and services development experience to tackle any problem.</p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
         <h3><strong>product</strong><br/> management</h3>
-        <p>Using Agile methodologies and effective time management we provide excellent expectations through-out design and delivery. <span class="comment">(help)</span></p>
+        <p>Using Agile methodologies and effective time management we provide accurate expectations and deliver on time.</p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
         <h3><strong>UX</strong> and <strong>UI</strong><br/> design</h3>
-        <p>Working with a wide range of designers and employing a multi-iterative approach, we invent powerful brands and provide pixel perfect fine tuning to existing solutions. <span class="comment">(help more)</span></p>
+        <p>Working with a wide range of designers and employing a multi-iterative approach, we invent powerful brands and provide pixel perfect fine tuning to existing solutions.</p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
         <h3><strong>discovery</strong> and <strong><br/>architecture</strong></h3>
-        <p>We help you discover your project requirements, design a proposed solution, and create MVPs to jumpstart your development. <span class="comment">(thanks Scriptex)</span></p>
+        <p>We help you discover your project requirements, design a proposed solution, and create MVPs to jumpstart your development.</p>
       </div>
     </div>
   </div>

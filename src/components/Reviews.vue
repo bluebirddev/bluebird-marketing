@@ -72,7 +72,7 @@ export default {
       flkty: undefined,
       reviews: [
         {
-          text: `Bluebird's team are great partners, whether working with you directly or with your internal team.  They bring incredible talent and consistently make rapid and valuable contributions towards software projects they're involved in.  If you're building a new website or undertaking complex financial software development, they can do it all on time and on budget.`,
+          text: `Bluebird’s team are great partners, whether working with you directly or with your internal team.  They bring incredible talent and consistently make rapid and valuable contributions towards software projects they’re involved in.  If you’re building a new website or undertaking complex financial software development, they can do it all on time and on budget.`,
           name: 'Stefan Griesel – Product Lead, BankTech',
         },
         {
