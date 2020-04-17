@@ -11,7 +11,8 @@
         </svg>
       </h2>
       <p>
-        We are a remote team with diverse backgrounds and complimentary skillsets.  We’re united through our love of tech, adaptability, and eagerness to learn. 
+        We are a remote team with diverse backgrounds and complimentary skillsets.  Our members have founded startups, worked internationally, and contributed to major open-source platforms.  We’re united through our love of tech, adaptability, and commitment to the continuous improvement and expansion of our skillsets. 
+        
         Our culture is built upon pride and collaboration, allowing us to effectively divide, conquer and tailor every task and challenge.
       </p>
       <p>

@@ -6,18 +6,18 @@
     <div class="row">
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
-        <h3><strong>mobile app</strong><br/> development</h3>
-        <p>Native, Xamarin, Flutter, or React Native.  We take the hassle out of mobile development, and deliver beautiful apps quickly and cost effectively.</p>
-      </div>
-      <div class="card">
-        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
         <h3><strong>web</strong><br/> development</h3>
-        <p>Using modern technologies combined with the latest ECMAScript guidelines, we create performant, sleek, and secure websites.</p>
+        <p>Using modern technologies combined with the latest web standards, we create performant, responsive, sleek, and secure websites.</p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
         <h3><strong>infrastructure</strong><br/> development</h3>
-        <p>We develop everything from banking solutions to logistic systems and have the server, database, and services development experience to tackle any problem.</p>
+        <p>We develop everything from banking solutions to logistic systems and have the server-, database-, and services development experience to tackle any problem.</p>
+      </div>
+      <div class="card">
+        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
+        <h3><strong>mobile app</strong><br/> development</h3>
+        <p>Native or cross-platform — we take the hassle out of mobile development, and deliver beautiful apps quickly and cost effectively.</p>
       </div>
       <div class="card">
         <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
