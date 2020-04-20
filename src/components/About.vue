@@ -20,7 +20,7 @@
         adopt and manage the entire process.  Your choice.  Our process is custom tailored for your requirements.        
       </p>
       <p>
-        We’re not limited to one stack.  The world of tech is constantly evoling.  We find the balance between modern technologies and honoring time-tested methodologies.
+        We’re not limited to one stack.  The world of tech is constantly evolving.  We find the balance between modern technologies and honoring time-tested methodologies.
       </p>
       <p>
         We pride ourselves in creating solutions that are simple, powerful, sustainable and beautiful.
