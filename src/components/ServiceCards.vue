@@ -5,32 +5,44 @@
     <div class="right-arrow" />
     <div class="row">
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
+        <div class="service-logo-container">
+          <img src="@/assets/services/1_Web_development.svg" alt="service-logo" />
+        </div>
         <h3><strong>web</strong><br/> development</h3>
         <p>Using modern technologies combined with the latest web standards, we create performant, responsive, sleek, and secure websites.</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
+        <div class="service-logo-container">
+          <img src="@/assets/services/2_Infrastructure.svg" alt="service-logo" />
+        </div>
         <h3><strong>infrastructure</strong><br/> development</h3>
         <p>We develop everything from banking solutions to logistic systems and have the server-, database-, and services development experience to tackle any problem.</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
+        <div class="service-logo-container">
+          <img src="@/assets/services/3_Mobile_app.svg" alt="service-logo" />
+        </div>
         <h3><strong>mobile app</strong><br/> development</h3>
         <p>Native or cross-platform — we take the hassle out of mobile development, and deliver beautiful apps quickly and cost effectively.</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
+        <div class="service-logo-container">
+          <img src="@/assets/services/4_Product_management.svg" alt="service-logo" />
+        </div>
         <h3><strong>product</strong><br/> management</h3>
         <p>Using Agile methodologies and effective time management we provide accurate expectations and deliver on time.</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
+        <div class="service-logo-container">
+          <img src="@/assets/services/5_UX_and_UI.svg" alt="service-logo" />
+        </div>
         <h3><strong>UX</strong> and <strong>UI</strong><br/> design</h3>
         <p>Working with a wide range of designers and employing a multi-iterative approach, we invent powerful brands and provide pixel perfect fine tuning to existing solutions.</p>
       </div>
       <div class="card">
-        <g-image src="~/assets/service-logo.svg" alt="service-logo" width="54" />
+        <div class="service-logo-container">
+          <img src="@/assets/services/6_Discovery.svg" alt="service-logo" />
+        </div>
         <h3><strong>discovery</strong> and <strong><br/>architecture</strong></h3>
         <p>We help you discover your project requirements, design a proposed solution, and create MVPs to jumpstart your development.</p>
       </div>
@@ -53,6 +65,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+.service-logo-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    max-width: 90px;
+    max-height: 100%;
+  }
 }
 .card {
   width: 300px;
