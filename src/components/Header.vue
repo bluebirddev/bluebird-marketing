@@ -6,7 +6,7 @@
       <p><strong>Bluebird Development</strong> provides exclusive consulting, development, and design resources for you and your team.</p>
       <a class="button" href="#services">Find out more</a>
     </section>
-    <div class="header-image-container"><g-image src="~/assets/header.png" class="header-image" width="674" /></div>
+    <div class="header-image-container"><g-image src="~/assets/header.png" class="header-image" alt="header-image" width="674" /></div>
     <section class="right-content" data-aos="fade-left">
       <div class="right-content-arrow" />
       <h2>from UI tweaks to <br/>fully developed banking systems, we cater for<br/><strong> all your needs</strong></h2>

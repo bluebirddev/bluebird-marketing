@@ -22,13 +22,13 @@
         data-netlify-honeypot="bot-field"
       >
         <label for="name">Your name</label>
-        <input placeholder="Your name" name="name" v-model="name" required />
+        <input placeholder="Your name" id="name" name="name" v-model="name" required />
         <label for="company">Your company (optional)</label>
-        <input placeholder="Your company (optional)" name="company" v-model="company" />
+        <input placeholder="Your company (optional)" id="company" name="company" v-model="company" />
         <label for="email">Your email</label>
-        <input placeholder="Your email" name="email" type="email" v-model="email" required />
+        <input placeholder="Your email" id="email" name="email" type="email" v-model="email" required />
         <label for="message">Your message</label>
-        <textarea placeholder="Your message" name="message" v-model="message" required />
+        <textarea placeholder="Your message" id="message" name="message" v-model="message" required />
         <button class="button" type="submit" :disabled="submitting">Send</button>
       </form>
       <div class="success" v-else>

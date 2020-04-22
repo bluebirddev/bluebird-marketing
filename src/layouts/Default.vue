@@ -19,10 +19,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
-
 html {  
   scroll-behavior: smooth;
 }
