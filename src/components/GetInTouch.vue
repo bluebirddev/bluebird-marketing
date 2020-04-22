@@ -21,14 +21,22 @@
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <label for="name">Your name</label>
-        <input placeholder="Your name" id="name" name="name" v-model="name" required />
-        <label for="company">Your company (optional)</label>
-        <input placeholder="Your company (optional)" id="company" name="company" v-model="company" />
-        <label for="email">Your email</label>
-        <input placeholder="Your email" id="email" name="email" type="email" v-model="email" required />
-        <label for="message">Your message</label>
-        <textarea placeholder="Your message" id="message" name="message" v-model="message" required />
+        <label>
+          <span>Your name</span>
+          <input placeholder="Your name" v-model="name" required />
+        </label>
+        <label>
+          <span>Your company (optional)</span>
+          <input placeholder="Your company (optional)" v-model="company" />
+        </label>
+        <label>
+          <span>Your email</span>
+          <input placeholder="Your email" type="email" v-model="email" required />
+        </label>
+        <label>
+          <span>Your message</span>
+          <textarea placeholder="Your message" v-model="message" required />
+        </label>
         <button class="button" type="submit" :disabled="submitting">Send</button>
       </form>
       <div class="success" v-else>
@@ -132,7 +140,7 @@ h2 {
   text-align: right;
   z-index: 1;
   margin-top: -20px;
-  label {
+  label span {
     display: none;
   }
   input, textarea {
