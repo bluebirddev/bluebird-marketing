@@ -1,15 +1,15 @@
 <template>
   <div class="content">
-    <div class="background-image">Placeholder Image</div>
     <section class="left-content" data-aos="fade-right">
       <div class="left-content-arrow" />
       <h2>creating innovative software with <strong>style</strong> and <strong>simplicity</strong></h2>
       <p><strong>Bluebird Development</strong> provides exclusive consulting, development, and design resources for you and your team.</p>
       <a class="button" href="#services">Find out more</a>
     </section>
+    <div class="header-image-container"><g-image src="~/assets/header.png" class="header-image" width="674" /></div>
     <section class="right-content" data-aos="fade-left">
       <div class="right-content-arrow" />
-      <h2>from UI tweaks to fully developed banking systems, we cater for<br/><strong> all your needs</strong></h2>
+      <h2>from UI tweaks to <br/>fully developed banking systems, we cater for<br/><strong> all your needs</strong></h2>
       <p>We’re a <strong>highly adaptable</strong> team with the right skills, real-world experience, and drive.  We’re ready for any challenge.</p>
     </section>
   </div>
@@ -30,7 +30,7 @@ export default {
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  height: 800px;
+  height: 760px;
 }
 .left-content {
   width: 361px;
@@ -54,19 +54,10 @@ p {
 button {
   margin-top: 14px;
 }
-.background-image {
-  height: 450px;
-  width: 450px;
+.header-image {
+  top: 73px;
+  left: 324px;
   position: absolute;
-  top: 80px;
-  right: 390px;
-  z-index: 1;
-  border: 0.5px solid #E6E8EB;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #C6C8CB;
-  z-index: 0;
 }
 button:hover {  
   background-color: #BACB1C;
@@ -93,13 +84,22 @@ button:hover {
 
 // mobile
 @media only screen and (max-width: 1100px) {
+  .header-image-container {
+    display: flex;
+  }
+  .header-image {
+    position: initial;
+    margin: 50px auto 30px;
+    width: 100%;
+    max-width: 400px;
+  }
   .left-content {
     width: 100%;
     position: initial;
     margin-top: 40px;
   }
   .right-content {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 100%;
     position: initial;
     text-align: left;

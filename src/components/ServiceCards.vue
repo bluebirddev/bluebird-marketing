@@ -55,7 +55,7 @@
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 #services {
   position: absolute;
@@ -67,7 +67,7 @@
   justify-content: center;
 }
 .service-logo-container {
-  height: 60px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -83,7 +83,7 @@
   box-shadow: 5px 5px 10px #0000000D;
   border-radius: 5px 0px;
   margin: 20px;
-  padding: 60px 37px 37px;
+  padding: 46px 37px 22px;
   box-sizing: border-box;
   text-align: center;
   p {    
