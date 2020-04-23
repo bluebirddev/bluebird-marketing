@@ -23,19 +23,19 @@
       >
         <label>
           <span>Your name</span>
-          <input placeholder="Your name" v-model="name" required />
+          <input placeholder="Your name" name="name" v-model="name" required />
         </label>
         <label>
           <span>Your company (optional)</span>
-          <input placeholder="Your company (optional)" v-model="company" />
+          <input placeholder="Your company (optional)" name="company" v-model="company" />
         </label>
         <label>
           <span>Your email</span>
-          <input placeholder="Your email" type="email" v-model="email" required />
+          <input placeholder="Your email" name="email" type="email" v-model="email" required />
         </label>
         <label>
           <span>Your message</span>
-          <textarea placeholder="Your message" v-model="message" required />
+          <textarea placeholder="Your message" name="message" v-model="message" required />
         </label>
         <button class="button" type="submit" :disabled="submitting">Send</button>
       </form>
