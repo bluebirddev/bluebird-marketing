@@ -14,6 +14,18 @@ export default {
     // You can also use <link> for styles
     // ..
     AOS.init();
+
+    const Analytics = require('analytics');
+    const googleAnalytics = require('@analytics/google-analytics');
+ 
+    const analytics = Analytics({
+      app: 'bluebird-development',
+      plugins: [
+        googleAnalytics({
+          trackingId: 'UA-164344873-1',
+        }),
+      ],
+    });
   },
 };
 </script>
