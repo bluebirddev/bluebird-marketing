@@ -7,6 +7,12 @@
 module.exports = {
   titleTemplate: 'Bluebird Development',
   plugins: [
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-164344873-1'
+      }
+    }
   ],
   icon: './static/favicon.png'
 }

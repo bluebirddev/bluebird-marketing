@@ -20,9 +20,4 @@ export default function (Vue, { router, head, isClient }) {
     name: 'Description',
     content: 'Bluebird Development: Creating future tech with style and simplicity.'
   });
-
-  head.script.push({
-    src: 'https://www.googletagmanager.com/gtag/js?id=UA-164344873-1',
-    body: true
-  })
 }

@@ -14,8 +14,6 @@ export default {
     // You can also use <link> for styles
     // ..
     AOS.init();
-
-    require('@/analytics/ga');
   },
 };
 </script>
