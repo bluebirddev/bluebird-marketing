@@ -17,7 +17,7 @@ export default {
 
     const Analytics = require('analytics');
     const googleAnalytics = require('@analytics/google-analytics');
-  console.log({ Analytics, googleAnalytics });
+
     const analytics = Analytics.init({
       app: 'bluebird-development',
       plugins: [
@@ -26,6 +26,8 @@ export default {
         }),
       ],
     });
+    /* Track a page view */
+    analytics.page();
   },
 };
 </script>
