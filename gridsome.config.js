@@ -7,28 +7,12 @@
 module.exports = {
   titleTemplate: 'Bluebird Development',
   plugins: [
-    // {
-    //   use: 'gridsome-plugin-pwa',
-    //   options: {
-    //     title: 'Bluebird Development',
-    //     startUrl: '/',
-    //     display: 'standalone',
-    //     statusBarStyle: 'default',
-    //     manifestPath: 'manifest.json',
-    //     disableServiceWorker: true,
-    //     serviceWorkerPath: 'service-worker.js',
-    //     cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
-    //     shortName: 'Gridsome',
-    //     themeColor: '#1A73E8',
-    //     backgroundColor: '#ffffff',
-    //     icon: 'static/favicon.png', // must be provided like 'src/favicon.png'
-    //     msTileImage: '',
-    //     msTileColor: '#1A73E8'
-    //   },
-    // },
-    // {
-    //   use: "gridsome-plugin-service-worker",
-    // },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-164344873-1UA-XXXXXXXXX-X'
+      }
+    }
   ],
   icon: './static/favicon.png'
 }

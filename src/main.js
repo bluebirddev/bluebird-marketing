@@ -20,9 +20,4 @@ export default function (Vue, { router, head, isClient }) {
     name: 'Description',
     content: 'Bluebird Development: Creating future tech with style and simplicity.'
   });
-
-  head.script.push({
-    src: '//static.getclicky.com/js',
-    body: true
-  });
 }

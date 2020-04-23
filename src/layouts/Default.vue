@@ -14,11 +14,6 @@ export default {
     // You can also use <link> for styles
     // ..
     AOS.init();
-
-    
-    require('@/analytics/leadfeeder.js')
-    require('@/analytics/clicky.js')
-    require('@/analytics/segment.js')
   },
 };
 </script>
