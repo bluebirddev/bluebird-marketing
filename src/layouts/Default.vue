@@ -15,19 +15,7 @@ export default {
     // ..
     AOS.init();
 
-    const Analytics = require('analytics');
-    const googleAnalytics = require('@analytics/google-analytics');
-
-    const analytics = Analytics.init({
-      app: 'bluebird-development',
-      plugins: [
-        googleAnalytics.init({
-          trackingId: 'UA-164344873-1',
-        }),
-      ],
-    });
-    /* Track a page view */
-    analytics.page();
+    require('@/analytics/ga');
   },
 };
 </script>
