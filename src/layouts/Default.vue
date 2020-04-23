@@ -17,11 +17,11 @@ export default {
 
     const Analytics = require('analytics');
     const googleAnalytics = require('@analytics/google-analytics');
- 
-    const analytics = Analytics({
+  console.log({ Analytics, googleAnalytics });
+    const analytics = Analytics.init({
       app: 'bluebird-development',
       plugins: [
-        googleAnalytics({
+        googleAnalytics.init({
           trackingId: 'UA-164344873-1',
         }),
       ],
