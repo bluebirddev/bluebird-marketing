@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  titleTemplate: 'Bluebird Development',
+  titleTemplate: 'Bluebird Development | Creating software with style and simplicity',
   plugins: [
     {
       use: '@gridsome/plugin-google-analytics',

@@ -17,7 +17,7 @@ export default function (Vue, { router, head, isClient }) {
   });
 
   head.meta.push({
-    name: 'Description',
-    content: 'Bluebird Development: Creating future tech with style and simplicity.'
+    name: 'description',
+    content: 'From UI tweaks to fully developed banking systems, Bluebird will cater for all your needs.'
   });
 }
