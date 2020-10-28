@@ -46,9 +46,9 @@
       </div>
       <p class="contact" data-aos="fade-left">
         <strong>find us at</strong><br />
-        Fintec Spaces<br />
-        20 Krige Road<br />
-        Stellenbosch<br />
+        Cedarwood House<br />
+        33 Ballyclare Drive<br />
+        Bryanston, Johannesburg<br />
         South Africa
         <br />
         <br />
