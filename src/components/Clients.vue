@@ -13,29 +13,29 @@
           <span>22seven</span>
           <g-image src="~/assets/clients/22seven.svg" alt="22seven" width="96" />
         </a>
+        <a href="https://aurorasustainability.com/" target="_blank">
+          <span>aurora</span>
+          <g-image src="~/assets/clients/aurora.svg" alt="aurora" width="102" />
+        </a>
         <a href="https://bank.tech" target="_blank">
           <span>bank.tech</span>
           <g-image src="~/assets/clients/banktech.svg" alt="banktech" width="96" />
         </a>
-        <a href="https://thedelta.io" target="_blank">
+        <a href="https://www.thedelta.io" target="_blank">
           <span>thedelta</span>
           <g-image src="~/assets/clients/delta.png" alt="delta" width="180" style="width:90px;" />
         </a>
-        <a href="https://fintec.group" target="_blank">
-          <span>fintec</span>
-          <g-image src="~/assets/clients/fintec.svg" alt="fintec" width="86" />
+        <a href="https://www.duepay.co.za/" target="_blank">
+          <span>duepay</span>
+          <g-image src="~/assets/clients/duepay.png" alt="duepay" width="96" />
         </a>
-        <a href="https://fomo.travel" target="_blank">
-          <span>fomo</span>
-          <g-image src="~/assets/clients/fomo.png" alt="fomo" width="144" style="width:72px;" />
+        <a href="https://www.evuna.co.za/" target="_blank">
+          <span>evuna</span>
+          <g-image src="~/assets/clients/evuna.svg" alt="evuna" width="96" />
         </a>
         <a href="https://layup.co.za" target="_blank">
           <span>layup</span>
           <g-image src="~/assets/clients/layup.png" alt="layup" width="172" style="width:86px;" />
-        </a>
-        <a href="https://opticollect.com" target="_blank">
-          <span>opticollect</span>
-          <g-image src="~/assets/clients/opticollect.svg" alt="opticollect" width="86" />
         </a>
         <a href="https://www.pabtglobal.com" target="_blank">
           <span>pump-and-abrasion</span>
