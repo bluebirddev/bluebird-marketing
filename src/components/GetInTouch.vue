@@ -53,7 +53,6 @@
         <br />
         <br />
         <strong>contact us at</strong><br />
-        <a href="tel:+27739787541">+27 73 978 7541</a><br />
         <a href="mailto:info@bluebird.dev">info@bluebird.dev</a>
       </p>
     </div>
