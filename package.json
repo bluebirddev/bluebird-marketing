@@ -9,14 +9,14 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.2",
     "aos": "^3.0.0-beta.6",
-    "flickity": "^2.2.1",
-    "gridsome": "^0.7.21",
+    "flickity": "^2.2.2",
+    "gridsome": "^0.7.23",
     "normalize.css": "^8.0.1",
     "typeface-courier-prime": "^1.1.13",
     "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1",
-    "sass-loader": "^10.0.3"
+    "node-sass": "^4",
+    "sass-loader": "^10"
   }
 }
