@@ -21,6 +21,10 @@
           <span>bank.tech</span>
           <g-image src="~/assets/clients/banktech.svg" alt="banktech" width="96" />
         </a>
+        <a href="https://coindirect.com" target="_blank">
+          <span>coindirect.com</span>
+          <g-image src="~/assets/clients/coindirect.svg" alt="coindirect" width="96" />
+        </a>
         <a href="https://www.thedelta.io" target="_blank">
           <span>thedelta</span>
           <g-image src="~/assets/clients/delta.png" alt="delta" width="180" style="width:90px;" />
@@ -49,6 +53,10 @@
           <span>revix</span>
           <g-image src="~/assets/clients/revix.png" alt="revix" width="172" style="width:86px;" />
         </a>
+        <a href="https://thorchain.org/" target="_blank">
+          <span>THORChain</span>
+          <g-image src="~/assets/clients/thorchain.svg" alt="thorchain" width="106" />
+        </a>
       </div>
     </div>
   </div>
@@ -56,59 +64,13 @@
 
 <script>
 export default {
-  data() {
-    return {
-      clients: [
-        {
-          url: "https://22seven.com",
-          logo: "~/assets/clients/22seven.svg"
-        },
-        {
-          url: "https://bank.tech",
-          logo: "~/assets/clients/banktech.png"
-        },
-        {
-          url: "https://www.thedelta.io",
-          logo: "~/assets/clients/delta.png"
-        },
-        {
-          url: "https://fintec.group",
-          logo: "~/assets/clients/fintec.svg"
-        },
-        {
-          url: "https://fomo.travel",
-          logo: "~/assets/clients/fomo.png"
-        },
-        {
-          url: "https://layup.co.za",
-          logo: "~/assets/clients/layup.png"
-        },
-        {
-          url: "https://opticollect.com",
-          logo: "~/assets/clients/opticollect.svg"
-        },
-        {
-          url: "https://www.pabtglobal.com",
-          logo: "~/assets/clients/pump-and-abrasion.png"
-        },
-        {
-          url: "https://www.raubex.co.za",
-          logo: "~/assets/clients/raubex.png"
-        },
-        {
-          url: "https://revix.com",
-          logo: "~/assets/clients/revix.png"
-        },
-      ],
-    };
-  },
 };
 </script>
 
 <style lang="scss" scoped>
 .wrapper {
   background-color: #1A73E8;
-  padding: 90px 0;
+  padding: 60px 0;
   position: relative;
 }
 #clients {
@@ -125,7 +87,7 @@ export default {
 }
 .title {
   color: #fff;
-  width: 310px;
+  width: 350px;
   margin-right: 210px;
 }
 .underline {
