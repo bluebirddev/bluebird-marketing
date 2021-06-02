@@ -9,57 +9,95 @@
         </svg>
       </h2>
       <div class="clients">
-        <a href="https://22seven.com" target="_blank">
-          <span>22seven</span>
-          <g-image src="~/assets/clients/22seven.svg" alt="22seven" width="96" />
-        </a>
-        <a href="https://aurorasustainability.com/" target="_blank">
-          <span>aurora</span>
-          <g-image src="~/assets/clients/aurora.svg" alt="aurora" width="102" />
-        </a>
-        <a href="https://bank.tech" target="_blank">
-          <span>bank.tech</span>
-          <g-image src="~/assets/clients/banktech.svg" alt="banktech" width="96" />
-        </a>
-        <a href="https://coindirect.com" target="_blank">
-          <span>coindirect.com</span>
-          <g-image src="~/assets/clients/coindirect.svg" alt="coindirect" width="96" />
-        </a>
-        <a href="https://www.thedelta.io" target="_blank">
-          <span>thedelta</span>
-          <g-image src="~/assets/clients/delta.png" alt="delta" width="180" style="width:90px;" />
-        </a>
-        <a href="https://www.duepay.co.za/" target="_blank">
-          <span>duepay</span>
-          <g-image src="~/assets/clients/duepay.png" alt="duepay" width="96" />
-        </a>
-        <a href="https://www.evuna.co.za/" target="_blank">
-          <span>evuna</span>
-          <g-image src="~/assets/clients/evuna.svg" alt="evuna" width="96" />
-        </a>
-        <a href="https://layup.co.za" target="_blank">
-          <span>layup</span>
-          <g-image src="~/assets/clients/layup.png" alt="layup" width="172" style="width:86px;" />
-        </a>
-        <a href="https://www.pabtglobal.com" target="_blank">
-          <span>pump-and-abrasion</span>
-          <g-image src="~/assets/clients/pump-and-abrasion.png" alt="pump-and-abrasion" width="200" style="width:100px;" />
-        </a>
-        <a href="https://www.raubex.co.za" target="_blank">
-          <span>raubex</span>
-          <g-image src="~/assets/clients/raubex.png" alt="raubex" width="164" style="width:82px;" />
-        </a>
-        <a href="https://revix.com" target="_blank">
-          <span>revix</span>
-          <g-image src="~/assets/clients/revix.png" alt="revix" width="172" style="width:86px;" />
-        </a>
-        <a href="https://thorchain.org/" target="_blank">
-          <span>THORChain</span>
-          <g-image src="~/assets/clients/thorchain.svg" alt="thorchain" width="106" />
-        </a>
+        <div class="container">
+          <div class="inner-row">
+            <div id="row">
+              <a href="https://thorchain.org/" target="_blank">
+              <span>THORChain</span>
+              <g-image src="~/assets/clients/thorchain.svg" alt="thorchain" width="106" />
+              </a>
+            </div>
+            <div id="row">
+              <a href="https://layup.co.za" target="_blank">
+              <span>layup</span>
+              <g-image src="~/assets/clients/layup.png" alt="layup" width="172" style="width:86px;" />
+              </a>
+            </div>
+            <div id="row"> 
+              <a href="https://22seven.com" target="_blank">
+              <span>22seven</span>
+              <g-image src="~/assets/clients/22seven.svg" alt="22seven" width="96" />
+              </a>
+            </div>
+            <div id="row"> 
+             <a href="https://www.pabtglobal.com" target="_blank">
+              <span>pump-and-abrasion</span>
+              <g-image src="~/assets/clients/pump-and-abrasion.png" alt="pump-and-abrasion" width="200" style="width:100px;" />
+              </a>
+            </div>
+          </div>
+          <div class="inner-row">
+            <div id="row">
+              <a href="https://www.thedelta.io" target="_blank">
+                <span>thedelta</span>
+                <g-image src="~/assets/clients/delta.png" alt="delta" width="180" style="width:90px;" />
+              </a>
+            </div>
+            <div id="row">
+             <a href="https://www.raubex.co.za" target="_blank">
+              <span>raubex</span>
+              <g-image src="~/assets/clients/raubex.png" alt="raubex" width="164" style="width:82px;" />
+              </a>
+            </div>
+            <div id="row">
+              <a href="https://bank.tech" target="_blank">
+              <span>bank.tech</span>
+              <g-image src="~/assets/clients/banktech.svg" alt="banktech" width="96" />
+              </a>
+            </div>
+            <div id="row"> 
+              <a href="https://aurorasustainability.com/" target="_blank">
+              <span>aurora</span>
+              <g-image src="~/assets/clients/aurora.svg" alt="aurora" width="102" />
+              </a>
+            </div>
+            <div id="row"> 
+              <a href="https://www.duepay.co.za/" target="_blank">
+                <span>duepay</span>
+                <g-image src="~/assets/clients/duepay.png" alt="duepay" width="96" />
+              </a>
+            </div>
+          </div>
+          <div class="inner-row">
+            <div id="row"> 
+              <a href="https://www.evuna.co.za/" target="_blank">
+              <span>evuna</span>
+              <g-image src="~/assets/clients/evuna.svg" alt="evuna" width="96" />
+              </a>
+            </div>
+            <div id="row"> 
+              <a href="https://coindirect.com" target="_blank">
+              <span>coindirect.com</span>
+              <g-image src="~/assets/clients/coindirect.svg" alt="coindirect" width="96" />
+              </a>
+            </div>
+            <div id="row"> 
+              <a href="https://revix.com" target="_blank">
+              <span>revix</span>
+              <g-image src="~/assets/clients/revix.png" alt="revix" width="172" style="width:86px;" />
+              </a>
+            </div>
+            <div id="row"> 
+              <a href="https://fame.shopping" target="_blank" >
+              <span>FameShopping</span>
+              <g-image src="~/assets/clients/fame.svg" alt="fameshopping" width="150" />
+              </a>
+            </div>
+          </div>
+        </div>
+       </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -74,8 +112,19 @@ export default {
   position: relative;
 }
 #clients {
-  position: absolute;
-  top: -75px;
+ top: -75px;
+ position: absolute;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.inner-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 .content {
   max-width: 1200px;
@@ -105,6 +154,7 @@ polyline {
   justify-content: flex-end;
   flex-wrap: wrap;
   align-items: center;
+  flex-direction: row-reverse;
   a {
     width: 130px;
     text-align: center;
