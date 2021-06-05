@@ -12,27 +12,27 @@
         <div class="container">
           <div class="inner-row">
             <div id="row">
-              <a href="https://thorchain.org/" target="_blank">
+              <a href="https://bank.tech/" target="_blank">
+              <span>banktech</span>
+              <g-image src="~/assets/clients/banktech.svg" alt="banktech" width="100" />
+              </a>
+            </div>
+            <div id="row">
+              <a href="https://www.pabtglobal.com" target="_blank">
+              <span>pump-and-abrasion</span>
+              <g-image src="~/assets/clients/pump-and-abrasion.png" alt="pump-and-abrasion" width="200" style="width:100px;" />
+              </a>
+            </div>
+            <div id="row"> 
+               <a href="https://thorchain.org/" target="_blank">
               <span>THORChain</span>
               <g-image src="~/assets/clients/thorchain.svg" alt="thorchain" width="106" />
               </a>
             </div>
-            <div id="row">
-              <a href="https://layup.co.za" target="_blank">
-              <span>layup</span>
-              <g-image src="~/assets/clients/layup.png" alt="layup" width="172" style="width:86px;" />
-              </a>
-            </div>
             <div id="row"> 
-              <a href="https://22seven.com" target="_blank">
-              <span>22seven</span>
-              <g-image src="~/assets/clients/22seven.svg" alt="22seven" width="96" />
-              </a>
-            </div>
-            <div id="row"> 
-             <a href="https://www.pabtglobal.com" target="_blank">
-              <span>pump-and-abrasion</span>
-              <g-image src="~/assets/clients/pump-and-abrasion.png" alt="pump-and-abrasion" width="200" style="width:100px;" />
+              <a href="https://coindirect.com" target="_blank">
+              <span>coindirect.com</span>
+              <g-image src="~/assets/clients/coindirect.svg" alt="coindirect" width="96" />
               </a>
             </div>
           </div>
@@ -50,47 +50,47 @@
               </a>
             </div>
             <div id="row">
-              <a href="https://bank.tech" target="_blank">
-              <span>bank.tech</span>
-              <g-image src="~/assets/clients/banktech.svg" alt="banktech" width="96" />
-              </a>
-            </div>
-            <div id="row"> 
-              <a href="https://aurorasustainability.com/" target="_blank">
-              <span>aurora</span>
-              <g-image src="~/assets/clients/aurora.svg" alt="aurora" width="102" />
-              </a>
-            </div>
-            <div id="row"> 
-              <a href="https://www.duepay.co.za/" target="_blank">
-                <span>duepay</span>
-                <g-image src="~/assets/clients/duepay.png" alt="duepay" width="96" />
-              </a>
-            </div>
-          </div>
-          <div class="inner-row">
-            <div id="row"> 
-              <a href="https://www.evuna.co.za/" target="_blank">
-              <span>evuna</span>
-              <g-image src="~/assets/clients/evuna.svg" alt="evuna" width="96" />
-              </a>
-            </div>
-            <div id="row"> 
-              <a href="https://coindirect.com" target="_blank">
-              <span>coindirect.com</span>
-              <g-image src="~/assets/clients/coindirect.svg" alt="coindirect" width="96" />
-              </a>
-            </div>
-            <div id="row"> 
               <a href="https://revix.com" target="_blank">
               <span>revix</span>
               <g-image src="~/assets/clients/revix.png" alt="revix" width="172" style="width:86px;" />
               </a>
             </div>
             <div id="row"> 
+               <a href="https://www.duepay.co.za/" target="_blank">
+                <span>duepay</span>
+                <g-image src="~/assets/clients/duepay.png" alt="duepay" width="96" />
+              </a>
+            </div>
+            <div id="row"> 
+              <a href="https://22seven.com" target="_blank">
+              <span>22seven</span>
+              <g-image src="~/assets/clients/22seven.svg" alt="22seven" width="96" />
+              </a>
+            </div>
+          </div>
+          <div class="inner-row">
+            <div id="row">
+              <a href="https://aurorasustainability.com/" target="_blank">
+              <span>aurora</span>
+              <g-image src="~/assets/clients/aurora.svg" alt="aurora" width="102" />
+              </a>
+            </div>
+            <div id="row"> 
+               <a href="https://www.evuna.co.za/" target="_blank">
+              <span>evuna</span>
+              <g-image src="~/assets/clients/evuna.svg" alt="evuna" width="96" />
+              </a> 
+            </div>
+            <div id="row"> 
+              <a href="https://layup.co.za" target="_blank">
+              <span>layup</span>
+              <g-image src="~/assets/clients/layup.png" alt="layup" width="172" style="width:86px;" />
+              </a>
+            </div>
+            <div id="row"> 
               <a href="https://fame.shopping" target="_blank" >
               <span>FameShopping</span>
-              <g-image src="~/assets/clients/fame.svg" alt="fameshopping" width="150" />
+              <g-image src="~/assets/clients/fame.svg" alt="fameshopping" width="135" />
               </a>
             </div>
           </div>
@@ -187,6 +187,65 @@ polyline {
   }
   .wrapper {
     padding: 60px 0;
+  }
+  .container {
+    display: inline-flex;
+    flex-flow: column wrap;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 300px;
+  }
+  .inner-row > div {
+  display:flex;
+  align-items: center;
+  line-height: 30px;
+  list-style: none;
+  }
+  .inner-row {
+    width: 32%;
+    margin-bottom: 2%; 
+    align-content: center;
+    align-items: center;
+  }
+  .inner-row:nth-child(3n+1) { order: 1; justify-content: flex-end; align-content: space-between; justify-content: space-between; padding: 8px 2px; line-height: 15px;}
+  .inner-row:nth-child(3n+2) { order: 2; justify-content: flex-start;; justify-items: center;}
+  .inner-row:nth-child(3n)   { order: 3; justify-items: center; justify-content: flex-start;padding-inline-end: 5px;  }
+
+  .container::before,
+  .container::after {
+    content: "";
+    order: 1;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .content {
+    flex-direction: column;
+  }
+  .title {
+    margin: 0;
+    width: 100%;
+  }
+  .clients {
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .wrapper {
+    padding: 60px 0;
+  }
+  .container {
+  display: block;
+  flex-direction: row;
+  }
+  .inner-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
   }
 }
 </style>
