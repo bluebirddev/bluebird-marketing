@@ -38,15 +38,16 @@
           </div>
           <div class="inner-row">
             <div id="row">
-              <a href="https://www.thedelta.io" target="_blank">
-                <span>thedelta</span>
-                <g-image src="~/assets/clients/delta.png" alt="delta" width="180" style="width:90px;" />
+              <a href="https://www.raubex.co.za" target="_blank">
+              <span>raubex</span>
+              <g-image src="~/assets/clients/raubex.png" alt="raubex" width="164" style="width:82px;" />
               </a>
             </div>
             <div id="row">
-             <a href="https://www.raubex.co.za" target="_blank">
-              <span>raubex</span>
-              <g-image src="~/assets/clients/raubex.png" alt="raubex" width="164" style="width:82px;" />
+             
+              <a href="https://www.thedelta.io" target="_blank">
+                <span>thedelta</span>
+                <g-image src="~/assets/clients/delta.png" alt="delta" width="180" style="width:90px;" />
               </a>
             </div>
             <div id="row">
@@ -191,15 +192,16 @@ polyline {
   .container {
     display: inline-flex;
     flex-flow: column wrap;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-content: space-between;
     height: 300px;
+    margin-top:-10px
   }
   .inner-row > div {
   display:flex;
   align-items: center;
-  line-height: 30px;
-  list-style: none;
+  line-height: 40px;
+  overflow:initial; 
   }
   .inner-row {
     width: 32%;
@@ -207,9 +209,9 @@ polyline {
     align-content: center;
     align-items: center;
   }
-  .inner-row:nth-child(3n+1) { order: 1; justify-content: flex-end; align-content: space-between; justify-content: space-between; padding: 8px 2px; line-height: 15px;}
+  .inner-row:nth-child(3n+1) { order: 1; justify-content: flex-end;  justify-content: space-evenly;}
   .inner-row:nth-child(3n+2) { order: 2; justify-content: flex-start;; justify-items: center;}
-  .inner-row:nth-child(3n)   { order: 3; justify-items: center; justify-content: flex-start;padding-inline-end: 5px;  }
+  .inner-row:nth-child(3n)   { order: 3; justify-items: center; justify-content: flex-start;padding-top: 20px; padding-block: -15px;  }
 
   .container::before,
   .container::after {
@@ -222,7 +224,7 @@ polyline {
 
 @media only screen and (max-width: 400px) {
   .content {
-    flex-direction: column;
+    display: flex;
   }
   .title {
     margin: 0;
@@ -236,16 +238,20 @@ polyline {
     padding: 60px 0;
   }
   .container {
-  display: block;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
   }
   .inner-row {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-direction:column;
+  align-content: space-evenly;
   justify-content: space-evenly;
-  align-content: space-around;
-  align-items: center;
+  align-items: baseline;
+  flex: 1 0;
+  align-self: flex-start;
+  margin-inline: 95px;
+  margin-left:-50px;
   }
 }
 </style>
