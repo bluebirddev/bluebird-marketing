@@ -9,9 +9,9 @@
         </svg>
       </h2>
       <div class="clients">
-        <a href="https://fame.shopping" target="_blank">
-          <span>FameShopping</span>
-          <g-image src="~/assets/clients/fame.svg" alt="fame" width="96" />
+        <a href="https://coindirect.com" target="_blank">
+          <span>coindirect.com</span>
+          <g-image src="~/assets/clients/coindirect.svg" alt="coindirect" width="96" />
         </a>
         <a href="https://22seven.com" target="_blank">
           <span>22seven</span>
@@ -47,11 +47,11 @@
         </a>
         <a href="https://www.duepay.co.za/" target="_blank">
           <span>duepay</span>
-          <g-image src="~/assets/clients/duepay.png" alt="duepay" width="96" />
+          <g-image src="~/assets/clients/duepay.png" alt="duepay" width="88" />
         </a>
-        <a href="https://coindirect.com" target="_blank">
-          <span>coindirect.com</span>
-          <g-image src="~/assets/clients/coindirect.svg" alt="coindirect" width="96" />
+        <a href="https://fame.shopping" target="_blank">
+          <span>FameShopping</span>
+          <g-image src="~/assets/clients/fame.svg" alt="fame" width="100" />
         </a>
         <a href="https://www.pabtglobal.com" target="_blank">
           <span>pump-and-abrasion</span>
