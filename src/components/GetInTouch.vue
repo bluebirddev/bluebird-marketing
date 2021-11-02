@@ -46,10 +46,10 @@
       </div>
       <p class="contact" data-aos="fade-left">
         <strong>find us at</strong><br />
-        Cedarwood House<br />
-        33 Ballyclare Drive<br />
-        Bryanston, Johannesburg<br />
-        South Africa
+        Fujairah Creative City Free Zone<br />
+        Creative Tower<br />
+        Fujairah, United Arab Emirates<br />
+        PO Box 4422
         <br />
         <br />
         <strong>contact us at</strong><br />
