@@ -16,7 +16,7 @@
     "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
-    "node-sass": "^7",
-    "sass-loader": "^10"
+    "sass": "^1.51.0",
+    "sass-loader": "^10.1.1"
   }
 }
