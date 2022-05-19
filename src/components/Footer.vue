@@ -1,7 +1,10 @@
 <template>
   <div class="wrapper">
     <div class="content">
-      <g-image src="~/assets/white-logo.svg" alt="white-logo" class="logo" width="38" />
+      <!-- <g-image src="~/assets/white-logo.svg" alt="white-logo" class="logo" width="38" /> -->
+      <a href="https://topsoftwarecompanies.co/software-development/agencies/united-arab-emirates" target="_blank">
+        <g-image class="top-dev-badge" src="https://topsoftwarecompanies.co/badges/top-software-developers.png" alt="software developers uae" title="Software Developers UAE" />
+      </a>
       <div class="social-container">
         <img src="@/assets/facebook-logo.svg" alt="facebook-logo" class="disabled" />
         <g-image src="~/assets/twitter-logo.svg" alt="twitter-logo" class="disabled" width="24" />
@@ -40,7 +43,7 @@ export default {
   background-color: #1734D1;
 }
 .social-container {
-  margin-top: 50px;
+  margin-top: 20px;
   img {
     opacity: 0.6;
     padding: 15px;
@@ -59,5 +62,9 @@ export default {
   opacity: 0.6;
   margin-top: 30px;
   font-size: 12px;
+}
+.top-dev-badge {
+  height: 100px;
+  margin-top: 30px;
 }
 </style>
